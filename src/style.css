@@ -1,0 +1,48 @@
+.todo {
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.tasks {
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tasks__task {
+  width: 100%;
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.tasks__task-buttons {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.tasks__task-main {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tasks__task-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.tasks__task-status {
+  cursor: pointer;
+}
+.tasks__task-file {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
